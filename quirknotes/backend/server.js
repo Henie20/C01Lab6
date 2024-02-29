@@ -43,12 +43,6 @@ app.use(cors());
 const COLLECTIONS = {
     notes: "notes",
   };
-
-
-
-app.get("/", (req, res) => {
-  res.send("Welcome to the QuirkNotes API!");
-});
   
 // Get all notes available
 app.get("/getAllNotes", express.json(), async (req, res) => {
