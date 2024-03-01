@@ -16,4 +16,4 @@ COPY quirknotes/backend ./
 # Expose port 4000 to serve the frontend
 EXPOSE 4000
 
-CMD ["npm dev"]
+CMD ["npm", "start"]
